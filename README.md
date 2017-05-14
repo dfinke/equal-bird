@@ -1,3 +1,8 @@
+# Install from the PowerShell Gallery
+
+```powershell
+Install-Module -Name EqualBird
+```
 Set of PowerShell functions to make working with Azure resources easier.
 
 These functions also leverage PowerShell's ability to bind parameters between functions by property name.
