@@ -22,4 +22,4 @@ AccountEndpoint=https://seinfeld.documents.azure.com:443/;AccountKey=xxxxxxxx;Da
 |---|---|
 |Get-CosmosDB|Gets all the Cosmos DBs in your Azure subscription
 |Get-CosmosConnectionString|Retrieves keys from your Cosmos DB and returns a connectstring
-|Get-AllCosmosDBConnectionString|Convenience function that calls `Get-CosmosDB | Get-AllCosmosDBConnectionString` and formats the results|
+|Get-AllCosmosDBConnectionString|Convenience function that calls `Get-CosmosDB \| Get-AllCosmosDBConnectionString` and formats the results|
