@@ -1,4 +1,4 @@
-. $PSScriptRoot\GetCosmosConnectionString.ps1
+. $PSScriptRoot\GetCosmosDBConnectionString.ps1
 . $PSScriptRoot\GetCosmosDB.ps1
 
 Function DoLogin {

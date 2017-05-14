@@ -1,15 +1,15 @@
-function Get-CosmosConnectionString {
+function Get-CosmosDBConnectionString {
     <#
         .SYNOPSIS
         Retrieves keys from your Cosmos DB and returns a connectstring for use in apps like "DocumentDB Data Migration Tool"
         .DESCRIPTION
-        You can also use it with Get-CosmosDB. Piping it to Get-CosmosConnectionString to get the ConnectionString for all of your Cosmos DBs.
+        You can also use it with Get-CosmosDB. Piping it to Get-CosmosDBConnectionString to get the ConnectionString for all of your Cosmos DBs.
         .Example
-        Get-CosmosConnectionString Kramer-RG seinfeld
+        Get-CosmosDBConnectionString Kramer-RG seinfeld
 AccountEndpoint=https://seinfeld.documents.azure.com:443/;AccountKey=xxxxxxxx;Database=seinfeld
 
         .Example
-Get-CosmosDB | Get-CosmosConnectionString
+Get-CosmosDB | Get-CosmosDBConnectionString
 AccountEndpoint=https://seinfeld.documents.azure.com:443/;AccountKey=xxxxxxxx;Database=seinfeld
     #>
     param(

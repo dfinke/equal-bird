@@ -1,6 +1,6 @@
 Set of PowerShell functions to make working with Azure resources easier.
 
-These functions also leverages PowerShell's ability to bind parameters between functions by name
+These functions also leverage PowerShell's ability to bind parameters between functions by property name.
 
 ```
 PS C:\> Get-CosmosDB
