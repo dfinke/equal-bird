@@ -1,3 +1,4 @@
+. $PSScriptRoot\GetAllCosmosDBConnectionString.ps1
 . $PSScriptRoot\GetCosmosDBConnectionString.ps1
 . $PSScriptRoot\GetCosmosDB.ps1
 
